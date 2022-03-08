@@ -18,6 +18,9 @@ def read_template(path):
 def test_push():
     pass
 
+def test_push_new():
+    pass
+
 def parse_template(content):
     '''
     parse function used to divide the string into dtripped and parts 
@@ -66,4 +69,3 @@ without knowing the story.
     print(game)
     with open("./madlib_cli/game.txt", "w") as f:
             f.write(game)
-
