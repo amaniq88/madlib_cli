@@ -15,6 +15,9 @@ def read_template(path):
         f.close()
         return content
 
+def test_push():
+    pass
+
 def parse_template(content):
     '''
     parse function used to divide the string into dtripped and parts 
